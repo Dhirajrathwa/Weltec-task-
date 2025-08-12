@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css" title="css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="/images/logo.png" alt="" width="60px" height="60px" />
+      <p> Tasks</p>
+
+    </div>
+    <h5 style="font-size:18px">some@example.com</h5>
+    <nav>
+      <li><a href="#table">Tables & List</a></li>
+      <li><a href="#anchor">Anchors & Formatting</a></li>
+      <li><a href="#block-element">Block & inline</a></li>
+      <li><a href="#flexbox">Flexbox</a></li>
+    </nav>
+  </header>
+
+
+  <section id="table" class="table">
+    <h4>Section 1 : Tables and list</h4>
+
+    <img src="/images/image 1.webp" alt="Image not found"
+      width="120px" height="80px">
+
+    <p>This section demonstrates an html table,an order list and an unordered list. </p>
+
+    <h5>Sample table</h5>
+
+    <table border="2px solid black">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jane doe</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>john smith</td>
+          <td>john@example.com</td>
+        </tr>
+      </thead>
+
+    </table>
+    <br />
+
+    <div class="list">
+      <div>
+        <h5>Ordered list</h5>
+        <ol>
+          <li>First step</li>
+          <li>Secondl step</li>
+          <li>Third step</li>
+        </ol>
+      </div>
+      <div>
+        <h5>Unordered list</h5>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Cherry</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  <hr />
+  <section class="anchor" id="anchor">
+    <h4> Section 2 : Anchorand Formatting tag</h4>
+    <div class="block">Link</div>
+    <p>Example of anchor attribute and formating tag in HTML.</p>
+    <h5>Anchor tag example</h5>
+    <a href="">External link</a>
+    <a href="#">Internal link</a>
+    <a href="#" Download>Download pdf</a>
+    <a href="mailto:some@exaple.com">Send email</a>
+    <div class="formatting">
+      <h5>Formatting tag example</h5>
+      <p>
+      <pre><b>Bold</b>     <strong>Strong</strong>   <i>Italic</i>      <em>Emphasize</em>      <span style="text-decoration: underline">Underline</span>      <mark>Mark</mark>      <small>Small</small>       <del>Deleted</del>  
+      
+      <ins>Inserted""</ins>     X<sub>sub</sub>    X<sup>sup</sup>
+    </pre>
+      </p>
+    </div>
+  </section>
+
+  <hr />
+  <section class="block-inline" id="block-element">
+    <h4> Section 3 : Block level vs inline level element</h4>
+    <div class="block">Block vs inline</div>
+
+    <p>below are example of blocklevel or inline level elements with description.</p>
+    <div class="elements">
+      <div class="block-element">
+        <h5>Block level elements</h5>
+        <p>(block)</p>
+        <p>(paragraph)</p>
+        <p>(heading)</p>
+        <p>(Unorderedlist)</p>
+        <p> (form)</p>
+
+      </div>
+      <div class="inline-element">
+        <h5>Inline level elements</h5>
+        <pre>
+           <span>(inline)   <a>(anchor)   <img>(image)    <strong>(bold)
+             <em>(italic)
+         </pre>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section class="flexbox-section" id="flexbox">
+    <h4> Section 4: Flexbox example </h4>
+    <div class="block">Flexbox</div>
+    <p>This section demonstrate a simple flex box layout and explain key property.</p>
+    <div class="flexbox">
+      <div class="box">Flex item 1</div>
+      <div class="box">Flex item 2</div>
+      <div class="box">Flex item 3</div>
+
+    </div>
+    <h5> Flex property used</h5>
+    <p><b>display flex:</b>Create a flex container</p>
+    <p><b>flex-direction:row</b>arrange item in row.</p>
+    <p><b>justify-content:space-between</b> spread item evenly in space between.</p>
+    <p><b>align-item:stretch</b>Default item stretch to container height.</p>
+    <p><b>flex-wrap:wrap</b> allow items to wrap.</p>
+    <p><b>gaps</b>control space between items.</p>
+  </section>
+
+</body>
+
+</html>
