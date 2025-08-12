@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 6px;
+
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(3, 78, 103);
+
+}
+
+.logo {
+  width: 60%;
+  height: 6px;
+
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding: 20px 0 0 0;
+}
+
+.logo p {
+  font-size: 20px;
+  text-shadow: 2px 2px blueviolet;
+  color: white;
+}
+
+.logo img {
+  border-radius: 40px;
+}
+
+header h5 {
+
+  text-align: right;
+  color: white;
+}
+
+/* Header navigation */
+nav {
+  width: 66%;
+  height: 6%;
+  display: flex;
+  flex-wrap: Wrap;
+}
+
+nav li {
+  list-style: none;
+  padding: 6px;
+  margin-top: 20px;
+
+}
+nav li:hover{
+  background-color: #ffffff66;
+  border-radius: 8px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+
+}
+
+.table {
+  margin: 4%;
+
+}
+
+
+.table p {
+  padding: 20px 0px 18px 0px;
+  font-size: 18px;
+}
+
+.table h5 {
+  font-size: 20px;
+}
+
+.table table {
+  width: 100%;
+  height: 50%;
+  border-collapse: collapse;
+}
+
+.table table th,
+td {
+  padding: 6px 0px 6px 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: rgb(4, 48, 129);
+}
+table  tr:nth-child(odd){
+  background-color: rgb(165, 165, 245);
+}
+.list {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+
+/*  anchor  tag style       */
+.anchor {
+  padding: 10px;
+}
+
+h4 {
+  font-size: 160%;
+  padding: 10px;
+}
+
+.block {
+  width: 100px;
+  height: 80px;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.anchor p,
+h5 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.anchor a {
+  text-decoration: none;
+  padding: 20px;
+  gap: 20px;
+}
+
+.formatting {
+  margin-top: 10px;
+}
+
+/*  Section 3  style.   */
+
+.block-inline p {
+  font-size: 20px;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-element {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.block-element p {
+  width: 200px;
+  height: 20px;
+  margin: 20px;
+  background-color: aliceblue;
+  border-left: 3px solid royalblue;
+}
+
+.inline-element {
+  width: 50%;
+  height: auto;
+  align-content: center;
+}
+
+/*   flexbox.    */
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.box {
+  width: 30%;
+  height: 16%;
+  border-radius: 6px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
